@@ -1,1 +1,1 @@
-# cisc361-exercises
+# CISC361 Exercises
