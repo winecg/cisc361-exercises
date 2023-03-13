@@ -1,0 +1,10 @@
+Data:
+Running the single-threaded program three times had the times of 0.533753, 0.533823, and 0.533286.
+Running the multi-threaded program three times had the times of 0.549466, 0.547612, and 0.549310.
+When MAX_NO_OF_ELEMENTS is 1000, the single-threaded program had the time of 0.000007 all three times and the multi-threaded program had times of 0.000514, 0.000478, and 0.000309.
+When MAX_NO_OF_THREADS is 15, the time for summing all of the elements was 0.551267.
+
+Observations:
+When summing 100000000 elements and using 2 threads in the multi-threaded program, the single-threaded program and multi-threaded program had similar times, with the single-threaded one being slightly faster.
+When there were fewer elements to sum, the single threaded program ran way faster than the multi-threaded program.
+The more threads used in the multi-threaded program, the longer the program would take to run.
